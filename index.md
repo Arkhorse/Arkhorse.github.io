@@ -22,16 +22,23 @@ This is needed for Buffout 4. Download and install into the games root folder, a
 ### [Buffout 4](https://www.nexusmods.com/fallout4/mods/47359)
 This mod may be a tad annoying to install, but its well worth it. dont use it with [Baka ScrapHeap](https://www.nexusmods.com/fallout4/mods/46340)
 #### Install instructions:
-1. Download Buffout 4
-2. Install it with Mo2
-3. Download the TBB Redistributables (second file). Install this into the games root folder
-4. Download [Address Library for F4SE Plugins](https://www.nexusmods.com/fallout4/mods/47327). Install with Mo2
-5. Download [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946). Install it to the games root folder.
-    1. Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.
-    2. Change `<LoadMethod Name="OnProcessAttach">` to `<LoadMethod Name="OnThreadAttach">`
-    3. Save it
-6. If you need it, download the Microsoft Visual C++ Redistributable for Visual Studio 2019. If you already have it installed, you dont need to install it again.
-7. Thats it.
+<details>
+    <ol>
+        <li>Download Buffout 4</li>
+        <li>Install it with Mo2</li>
+        <li>Download the TBB Redistributables (second file). Install this into the games root folder</li>
+        <li>Download [Address Library for F4SE Plugins](https://www.nexusmods.com/fallout4/mods/47327). Install with Mo2</li>
+        <li>Download [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946). Install it to the games root folder.</li>
+        <ol>
+            <li>Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.</li>
+            <li>Change <code>LoadMethod Name="OnProcessAttach"</code> to <code>LoadMethod Name="OnThreadAttach"</code></li>
+            <li>Save it</li>
+            <li>If you need it, download the Microsoft Visual C++ Redistributable for Visual Studio 2019. If you already have it installed, you dont need it again.</li>
+        </ol>
+    	<li>Thats it.</li>
+    </ol>
+</details>
+
 ### [Bullet Counted Reload System (BCR)](https://www.nexusmods.com/fallout4/mods/41178)
 This mod fixes the reload issue with lever action weapons, like the lever actions rifle and shotgun.
 Patch for the [Horizon Lever Acton Shotgun](https://www.nexusmods.com/fallout4/mods/45120)
