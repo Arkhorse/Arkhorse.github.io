@@ -27,8 +27,8 @@ This mod may be a tad annoying to install, but its well worth it. dont use it wi
         <li>Download Buffout 4</li>
         <li>Install it with Mo2</li>
         <li>Download the TBB Redistributables (second file). Install this into the games root folder</li>
-        <li>Download [Address Library for F4SE Plugins](https://www.nexusmods.com/fallout4/mods/47327). Install with Mo2</li>
-        <li>Download [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946). Install it to the games root folder.</li>
+        <li>Download <a href="https://www.nexusmods.com/fallout4/mods/47327">Address Library for F4SE Plugins</a>. Install with Mo2</li>
+        <li>Download <a href="https://www.nexusmods.com/fallout4/mods/33946">xSE PluginPreloader F4</a>. Install it to the games root folder.</li>
         <ol>
             <li>Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.</li>
             <li>Change <code>LoadMethod Name="OnProcessAttach"</code> to <code>LoadMethod Name="OnThreadAttach"</code></li>
