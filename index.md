@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# Current Horizon version supported: 1.8 BETA 7
 
-You can use the [editor on GitHub](https://github.com/Arkhorse/Arkhorse.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+# Definitions
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Game Root Folder:
+This is where the games exe is at. Typically `Steam\steamapps\common\Fallout 4`.
+#### CC:
+Creation Content
+#### Mo2:
+[Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194). The only supported mod organizer. If you use Vortex, you will get not help from me. Nexus Mod Manager is not something you want to use due to issues.
 
-### Markdown
+# Minimum mods to make Horizon work well:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arkhorse/Arkhorse.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### [Unofficial Fallout 4 Patch](https://www.nexusmods.com/fallout4/mods/4598)
+This mod should be used at all times. It must be loaded at the top of your load order. No other mod (other than CC) should be above it.
+### [WSFW](https://www.nexusmods.com/fallout4/mods/35004)
+This mod fixes some workshop issues, and is compatible with Horizon now. Load this under HUD Framework.
+### [HUDFramework](https://www.nexusmods.com/fallout4/mods/20309)
+Not exactly needed for Horizon, but other mods in this list need it. Load this directly under UF4P.
+### [F4SE](https://f4se.silverlock.org)
+This is needed for Buffout 4. Download and install into the games root folder, and make sure to install the data folder as well.
+### [Buffout 4](https://www.nexusmods.com/fallout4/mods/47359)
+This mod may be a tad annoying to install, but its well worth it. dont use it with [Baka ScrapHeap](https://www.nexusmods.com/fallout4/mods/46340)
+#### Install instructions:
+1. Download Buffout 4
+2. Install it with Mo2
+3. Download the TBB Redistributables (second file). Install this into the games root folder
+4. Download [Address Library for F4SE Plugins](https://www.nexusmods.com/fallout4/mods/47327). Install with Mo2
+5. Download [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946). Install it to the games root folder.
+    1. Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.
+    2. Change `<LoadMethod Name="OnProcessAttach">` to `<LoadMethod Name="OnThreadAttach">`
+    3. Save it
+6. If you need it, download the Microsoft Visual C++ Redistributable for Visual Studio 2019. If you already have it installed, you dont need to install it again.
+7. Thats it.
+### [Bullet Counted Reload System (BCR)](https://www.nexusmods.com/fallout4/mods/41178)
+This mod fixes the reload issue with lever action weapons, like the lever actions rifle and shotgun.
+Patch for the [Horizon Lever Acton Shotgun](https://www.nexusmods.com/fallout4/mods/45120)
