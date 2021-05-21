@@ -1,36 +1,55 @@
-
-### [Unofficial Fallout 4 Patch](https://www.nexusmods.com/fallout4/mods/4598)
-This mod should be used at all times. It must be loaded at the top of your load order. No other mod (other than CC) should be above it.
-### [WSFW](https://www.nexusmods.com/fallout4/mods/35004)
-This mod fixes some workshop issues, and is compatible with Horizon now. Load this under HUD Framework.
-### [HUDFramework](https://www.nexusmods.com/fallout4/mods/20309)
-Not exactly needed for Horizon, but other mods in this list need it. Load this directly under UF4P.
-### [F4SE](https://f4se.silverlock.org)
-This is needed for Buffout 4. Download and install into the games root folder, and make sure to install the data folder as well.
-### [Buffout 4](https://www.nexusmods.com/fallout4/mods/47359)
-This mod may be a tad annoying to install, but its well worth it. dont use it with [Baka ScrapHeap](https://www.nexusmods.com/fallout4/mods/46340)
-#### Install instructions:
 <!DOCTYPE html>
-<HEAD></HEAD>
+<head>
+</head>
     <html>
-        <details>
-            <ol>
-                <li>Download Buffout 4</li>
-                <li>Install it with Mo2</li>
-                <li>Download the TBB Redistributables (second file). Install this into the games root folder</li>
-                <li>Download <a href="https://www.nexusmods.com/fallout4/mods/47327">Address Library for F4SE Plugins</a>. Install with Mo2</li>
-                <li>Download <a href="https://www.nexusmods.com/fallout4/mods/33946">xSE PluginPreloader F4</a>. Install it to the games root folder.</li>
-                <ol>
-                    <li>Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.</li>
-                    <li>Change <code>LoadMethod Name="OnProcessAttach"</code> to <code>LoadMethod Name="OnThreadAttach"</code></li>
-                    <li>Save it</li>
-                    <li>If you need it, download the Microsoft Visual C++ Redistributable for Visual Studio 2019. If you already have it installed, you dont need it again.</li>
-                </ol>
-                <li>Thats it.</li>
-            </ol>
-        </details>
-    <H3> <A HREF=https://www.nexusmods.com/fallout4/mods/41178>Bullet Counted Reload System (BCR)</A> </H3>
-        <BODY>
-            <p>This mod fixes the reload issue with lever action weapons, like the lever actions rifle and shotgun.</p>
-            <p>Patch for the <A HREF=https://www.nexusmods.com/fallout4/mods/45120>Horizon Lever Acton Shotgun</A></p>
-    </BODY>
+        <H1>Unofficial Fallout 4 Patch</H1>
+            <body>
+                <p><a href="https://www.nexusmods.com/fallout4/mods/4598">Download</a></p>
+                <p>This mod should be used at all times. It must be loaded at the top of your load order. No other mod (other than CC) should be above it.</p>
+        <H1>WSFW (Workshop Framework)</H1>
+            <body>
+                <p><a href="https://www.nexusmods.com/fallout4/mods/35004">Download</a></p>
+                <p>This mod fixes some workshop issues, and is compatible with Horizon now. Load this under HUD Framework.</p>
+            </body>
+        <H1>HUDFramework</H1>
+            <body>
+                <p><a href="https://www.nexusmods.com/fallout4/mods/20309">Download</a></p>
+                <p>Not exactly needed for Horizon, but other mods in this list need it. Load this directly under UF4P.</p>
+                <p>Note: Starting with 1.9 you will need this.</p>
+            </body>
+        <H1>F4SE</H1>
+            <body>
+                <p><a href="https://f4se.silverlock.org">Download</a></p>
+                <p>This is needed for Buffout 4. Download and install into the games root folder, and make sure to install the data folder as well.</p>
+            </body>
+        <H1>Buffout 4</H1>
+            <body>
+                <p><a href="https://www.nexusmods.com/fallout4/mods/47359">Download</a></p>
+                <p>This mod may be a tad annoying to install, but its well worth it.</p>
+                <p>Don't use it with <a href="https://www.nexusmods.com/fallout4/mods/46340">Baka ScrapHeap</a>. Buffout has its own memory allocation.</p>
+                <p>Install Instructions:</p>
+                <details>
+                    <ol>
+                        <li>Download Buffout 4</li>
+                        <li>Install it with Mo2</li>
+                        <li>Download the TBB Redistributables (second file). Install this into the games root folder</li>
+                        <li>Download <a href="https://www.nexusmods.com/fallout4/mods/47327">Address Library for F4SE Plugins</a>. Install with Mo2</li>
+                        <li>Download <a href="https://www.nexusmods.com/fallout4/mods/33946">xSE PluginPreloader F4</a>. Install it to the games root folder.</li>
+                    <ol>
+                        <li>Open xSE PluginPreloader.xml with notpad ++ or VS code. Dont use notepad.</li>
+                        <li>Change <code>LoadMethod Name="OnProcessAttach"</code> to <code>LoadMethod Name="OnThreadAttach"</code></li>
+                        <li>Save it</li>
+                        <li>If you need it, download the Microsoft Visual C++ Redistributable for Visual Studio 2019. If you already have it installed, you dont need it again.</li>
+                    </ol>
+                        <li>Thats it.</li>
+                    </ol>
+                </details>
+            </body>
+        <H1>Bullet Counted Reload System (BCR)</H1>
+            <BODY>
+                <p><A HREF=https://www.nexusmods.com/fallout4/mods/41178>Download</a></p>
+                <p>This mod fixes the reload issue with lever action weapons, like the lever actions rifle and shotgun.</p>
+                <p>There is also a patch for the Horizon Lever Acton Shotgun:</p>
+                <p><A HREF=https://www.nexusmods.com/fallout4/mods/45120>Download</a></p>
+            </BODY>
+    </html>
